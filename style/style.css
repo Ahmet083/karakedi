@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 100vh;
+    background:url(https://picsum.photos/id/237/1200/600);
+    
+    background-position: center;
+    background-size: cover;
+  
+   
+
+
+}
+
+.btn:hover{
+    background-color: chocolate!important;
+}
+.card{
+    background:url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: absolute; 
+    transition: all 2s;
+    z-index: 55;
+    top: 10%;
+    opacity: 0;
+    
+}
+
+i{
+    position: absolute;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.blur{
+    filter:blur(5px) brightness(70%);
+    
+}
